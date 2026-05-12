@@ -1,0 +1,5 @@
+## ESP-IDF managed component manifest for the remote.
+## Pure ESP-IDF; no external components are required.
+dependencies:
+  idf:
+    version: ">=5.0"
