@@ -1,4 +1,4 @@
-# CLAUDE.md — EoC Lab BLE Remote (ESP32-C3)
+# SETUP.md — EoC Lab BLE Remote (ESP32-C3)
 
 Companion remote for the main board recorder in the parent directory.
 Two buttons + OLED + BLE advertiser + deep sleep. Pure ESP-IDF, no
@@ -94,7 +94,7 @@ deep sleep, but is reset on power-cycle / re-flash.
 remote/
 ├── CMakeLists.txt              # ESP-IDF project root
 ├── sdkconfig.defaults          # ESP32-C3 + NimBLE broadcaster role
-├── CLAUDE.md                   # this file
+├── SETUP.md                   # this file
 └── main/
     ├── CMakeLists.txt
     ├── idf_component.yml
